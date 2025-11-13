@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>RANIA — Orientalischer Tanz</title>
+    <link rel="alternate" hreflang="fr" href="/index.html" />
+    <link rel="alternate" hreflang="en" href="/index.en.html" />
+    <link rel="alternate" hreflang="de" href="/index.de.html" />
+    <link rel="alternate" hreflang="x-default" href="/index.de.html" />
+    <link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
+    <link rel="alternate icon" href="/assets/images/logo.png" type="image/png">
+    <link rel="icon" href="/assets/images/favicon-32.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="/assets/images/favicon-96.png" sizes="96x96" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Montserrat:wght@300;400;600&family=Libre+Caslon+Text:ital@1&display=swap" rel="stylesheet">
+  <link href="/css/styles.css" rel="stylesheet">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-row">
+        <h1 class="brand"><a href="/index.de.html">
+            <img src="/assets/images/logo.png" alt="RANIA logo" class="logo">
+            <span class="brand-text">RANIA</span>
+          </a></h1>
+        <nav>
+          <a href="/index.de.html">Start</a>
+          <a href="/about.de.html">Über</a>
+          <a href="/classes.de.html">Kurse</a>
+          <a href="/gallery.de.html">Galerie</a>
+          <a href="/contact.de.html">Kontakt</a>
+        </nav>
+        <div class="lang-switch" aria-label="Sprachauswahl">
+          <a href="/index.html" hreflang="fr">FR</a>
+          <a href="/index.en.html" hreflang="en">EN</a>
+          <a href="/index.de.html" hreflang="de" class="active">DE</a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="container hero-inner">
+          <div class="hero-text">
+            <h2>Orientalischer Tanz — RANIA</h2>
+            <p class="lead">Ich heiße <strong>RANIA</strong>, stamme aus der arabischen Welt und lebe in Luzern. Leidenschaftlich für orientalischen Tanz und Programmierung, unterrichte ich Kinder und Frauen.</p>
+            <p>
+              <a class="btn" href="/classes.de.html">Kurse ansehen</a>
+              <a class="btn ghost" href="/contact.de.html">Kontakt</a>
+            </p>
+          </div>
+          <div class="hero-photo">
+            <img src="/assets/images/hero.jpg" alt="RANIA beim Tanzen">
+          </div>
+        </div>
+      </section>
+      <section class="intro container">
+        <h3>Wer ich bin</h3>
+        <p>Autodidaktische Tänzerin, spezialisiert auf orientalischen Tanz. Ich unterrichte alle Niveaus: Anfänger, Mittelstufe und Fortgeschrittene. Der Fokus liegt auf Musikalität, Haltung und Freude an der Bewegung.</p>
+      </section>
+
+      <section class="quote-block">
+        <div class="container">
+          <blockquote>„Tanz ist die Sprache, die jeder versteht.“</blockquote>
+        </div>
+      </section>
+
+      <section class="offers container">
+        <h3>Meine Angebote</h3>
+        <div class="cards">
+          <article class="card">
+            <h4>Wöchentliche Kurse</h4>
+            <p>Gruppenstunden mit Technik und Kombinationen. 60 Min.</p>
+          </article>
+          <article class="card">
+            <h4>Workshops</h4>
+            <p>Themenworkshops (Technik, Schleier, Improvisation). 90–120 Min.</p>
+          </article>
+          <article class="card">
+            <h4>Privatstunden</h4>
+            <p>Individuelles Coaching: Rhythmus, Haltung, Bühnenpräsenz. Auf Anfrage.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="mini-gallery container">
+        <h3>Galerie</h3>
+        <div class="thumbs">
+          <img src="/assets/images/thumb1.jpg" alt="thumb1">
+          <img src="/assets/images/thumb2.jpg" alt="thumb2">
+          <img src="/assets/images/thumb3.jpg" alt="thumb3">
+        </div>
+        <div class="video-preview">
+          <video controls class="video-fixed" style="margin-top:1rem">
+            <source src="/assets/videos/video_bw.webm" type="video/webm">
+            <source src="/assets/videos/video_bw.mp4" type="video/mp4">
+            Ihr Browser unterstützt das Video-Element nicht.
+          </video>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="container">
+        <p>© <span id="year"></span> RANIA — Orientalischer Tanz • <a href="/contact.de.html">Kontakt</a></p>
+      </div>
+    </footer>
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+    <script src="/js/main.js"></script>
+  </body>
+</html>

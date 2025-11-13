@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Galerie — RANIA</title>
+    <link rel="alternate" hreflang="fr" href="/gallery.html" />
+    <link rel="alternate" hreflang="en" href="/gallery.en.html" />
+    <link rel="alternate" hreflang="de" href="/gallery.de.html" />
+    <link rel="alternate" hreflang="x-default" href="/gallery.de.html" />
+    <link rel="stylesheet" href="/css/styles.css">
+  <link rel="icon" href="/assets/images/favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="icon" href="/assets/images/favicon-96.png" sizes="96x96" type="image/png">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-row">
+        <h1 class="brand"><a href="/index.de.html">
+            <img src="/assets/images/logo.png" alt="RANIA logo" class="logo">
+            <span class="brand-text">RANIA</span>
+          </a></h1>
+        <nav>
+          <a href="/index.de.html">Start</a>
+          <a href="/about.de.html">Über</a>
+          <a href="/classes.de.html">Kurse</a>
+          <a href="/gallery.de.html">Galerie</a>
+          <a href="/contact.de.html">Kontakt</a>
+        </nav>
+        <div class="lang-switch" aria-label="Sprachauswahl">
+          <a href="/gallery.html" hreflang="fr">FR</a>
+          <a href="/gallery.en.html" hreflang="en">EN</a>
+          <a href="/gallery.de.html" hreflang="de" class="active">DE</a>
+        </div>
+      </div>
+    </header>
+    <main class="container">
+      <h2>Galerie</h2>
+      <div class="gallery-grid">
+        <img src="/assets/images/thumb1.jpg" alt="1">
+        <img src="/assets/images/thumb2.jpg" alt="2">
+        <img src="/assets/images/thumb3.jpg" alt="3">
+        <img src="/assets/images/thumb4.jpg" alt="4">
+      </div>
+      <div class="video-block" style="margin-top:1rem">
+        <h3>Video</h3>
+  <video controls class="video-fixed">
+          <source src="/assets/videos/video_bw.mp4" type="video/mp4">
+        </video>
+      </div>
+    </main>
+    <footer class="site-footer">
+      <div class="container">
+        <p>© <span id="year"></span> RANIA</p>
+      </div>
+    </footer>
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  </body>
+</html>

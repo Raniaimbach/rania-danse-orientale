@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact — RANIA</title>
+  <link rel="alternate" hreflang="fr" href="/contact.html" />
+  <link rel="alternate" hreflang="en" href="/contact.en.html" />
+  <link rel="alternate" hreflang="de" href="/contact.de.html" />
+  <link rel="alternate" hreflang="x-default" href="/contact.html" />
+    <link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
+      <link rel="alternate icon" href="/assets/images/logo.png" type="image/png">
+      <link rel="icon" href="/assets/images/favicon-32.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="/assets/images/favicon-96.png" sizes="96x96" type="image/png">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Montserrat:wght@300;400;600&family=Libre+Caslon+Text:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-row">
+        <h1 class="brand"><a href="/">
+            <img src="/assets/images/logo.png" alt="RANIA logo" class="logo">
+            <span class="brand-text">RANIA</span>
+          </a></h1>
+        <nav>
+          <a href="/">Accueil</a>
+          <a href="/about.html">À propos</a>
+          <a href="/classes.html">Cours</a>
+          <a href="/gallery.html">Galerie</a>
+          <a href="/contact.html">Contact</a>
+        </nav>
+        <div class="lang-switch" aria-label="Changer de langue">
+          <a href="/contact.html" hreflang="fr" class="active">FR</a>
+          <a href="/contact.en.html" hreflang="en">EN</a>
+          <a href="/contact.de.html" hreflang="de">DE</a>
+        </div>
+      </div>
+    </header>
+    <main class="container contact-page">
+      <h2>Contact</h2>
+  <p>Envoyez-moi un message pour réserver un cours à Lucerne ou poser une question. Mes cours sont ouverts aux enfants et aux femmes.</p>
+  <form class="contact-form" action="mailto:rania@example.com" method="post" enctype="text/plain">
+        <label>Nom
+          <input type="text" name="name" required>
+        </label>
+        <label>Email
+          <input type="email" name="email" required>
+        </label>
+        <label>Message
+          <textarea name="message" rows="6" required></textarea>
+        </label>
+        <p class="muted">Remarque : ce formulaire utilise mailto: — pour un vrai formulaire, il faudra un backend ou un service (Formspree, Netlify Forms, etc.).</p>
+        <p><button class="btn" type="submit">Envoyer</button></p>
+      </form>
+      <section class="contact-other">
+        <h3>Autres façons de me contacter</h3>
+        <ul>
+          <li>Instagram: @votrecompte</li>
+          <li>Facebook: votrepage</li>
+        </ul>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="container">
+  <p>© <span id="year"></span> RANIA</p>
+      </div>
+    </footer>
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  </body>
+</html>
