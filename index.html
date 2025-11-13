@@ -96,10 +96,38 @@
 
       <section id="booking" class="booking-section container">
         <h3>Buchen Sie Ihren Kurs</h3>
-        <p>Wählen Sie einen Termin für Ihren Gruppenkurs, Workshop oder Privatstunde.</p>
-        <!-- Remplacez l'URL ci-dessous par votre lien Calendly personnel -->
-        <iframe class="booking-widget" src="https://calendly.com/votre-compte/danse-orientale" width="100%" height="700" frameborder="0"></iframe>
-        <p class="muted" style="margin-top:1rem">Sie haben kein Calendly? Erstellen Sie ein kostenloses Konto auf <a href="https://calendly.com" target="_blank" rel="noopener">calendly.com</a> und ersetzen Sie die URL oben.</p>
+        <p>Füllen Sie das Formular aus und ich melde mich bei Ihnen für einen Termin.</p>
+        <form class="booking-form" action="mailto:rania@example.com" method="post" enctype="text/plain">
+          <div class="form-row">
+            <label>Name *
+              <input type="text" name="name" required>
+            </label>
+            <label>E-Mail *
+              <input type="email" name="email" required>
+            </label>
+          </div>
+          <div class="form-row">
+            <label>Telefon
+              <input type="tel" name="phone">
+            </label>
+            <label>Kursart *
+              <select name="course-type" required>
+                <option value="">Bitte wählen...</option>
+                <option value="group">Gruppenkurs (60 Min.)</option>
+                <option value="workshop">Workshop (90-120 Min.)</option>
+                <option value="private">Privatstunde (auf Anfrage)</option>
+              </select>
+            </label>
+          </div>
+          <label>Bevorzugter Termin / Zeitraum
+            <textarea name="preferred-time" rows="3" placeholder="z.B. Mittwoch Abend, Wochenende, flexible..."></textarea>
+          </label>
+          <label>Zusätzliche Informationen
+            <textarea name="message" rows="4" placeholder="Ihr Niveau, spezielle Wünsche..."></textarea>
+          </label>
+          <p class="muted">Hinweis: Dieses Formular nutzt mailto: — für echte Formulare empfehle ich <a href="https://formspree.io" target="_blank" rel="noopener">Formspree</a> (kostenlos).</p>
+          <button class="cta-primary" type="submit">Anfrage senden</button>
+        </form>
       </section>
     </main>
     <footer class="site-footer">
