@@ -167,7 +167,7 @@ main h4{font-family:'Cormorant Garamond',serif;font-weight:700;line-height:1.3;c
 .faq-item p{padding:1.5rem;margin:0;color:#555;line-height:1.7;border-top:1px solid rgba(179,77,106,0.08)}
 
 /* Testimonials Section */
-.testimonials-section{margin:4rem 0;padding:3rem 2rem;background:linear-gradient(135deg,rgba(179,77,106,0.08),rgba(255,248,245,1));border-radius:12px}
+.testimonials-section{margin:4rem 0 4rem 3rem;padding:3rem 2rem;background:linear-gradient(135deg,rgba(179,77,106,0.08),rgba(255,248,245,1));border-radius:12px}
 .testimonials-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:2rem;margin-top:2rem}
 .testimonial-card{background:#fff;padding:2rem;border-radius:12px;box-shadow:0 4px 16px rgba(0,0,0,0.08);position:relative}
 .testimonial-card::before{content:'"';position:absolute;top:-10px;left:20px;font-size:5rem;color:rgba(255,107,107,0.15);font-family:'Libre Caslon Text',serif;line-height:1}
