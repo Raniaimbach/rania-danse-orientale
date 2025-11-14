@@ -38,7 +38,7 @@ nav a:hover{color:var(--accent);transform:translateY(-1px)}
 .hero::before{content:'';position:absolute;top:-50%;right:-10%;width:60%;height:200%;background:radial-gradient(circle,rgba(255,255,255,0.3) 0%,transparent 70%);pointer-events:none;animation:float 20s ease-in-out infinite}
 @keyframes float{0%,100%{transform:translate(0,0) scale(1)}50%{transform:translate(-20px,-20px) scale(1.1)}}
 .hero-inner{position:relative;z-index:2}
-.video-fixed{width:200px;max-width:100%;height:auto;display:block;border-radius:8px;box-shadow:0 8px 24px rgba(0,0,0,0.2);transition:all 0.4s ease}
+.video-fixed{width:100%;max-width:900px;height:auto;display:block;margin:0 auto;border-radius:8px;box-shadow:0 8px 24px rgba(0,0,0,0.2);transition:all 0.4s ease}
 .video-fixed:hover{transform:scale(1.05);box-shadow:0 12px 36px rgba(179,77,106,0.3)}
 .lang-switch{display:flex;gap:.4rem;font-size:.7rem;align-items:center;margin-left:1rem}
 .lang-switch a{text-decoration:none;color:var(--muted);padding:.15rem .4rem;border:1px solid #ddd;border-radius:4px;line-height:1}
@@ -60,7 +60,8 @@ nav a:hover{color:var(--accent);transform:translateY(-1px)}
 .card::before{content:'';position:absolute;top:0;left:0;right:0;height:4px;background:linear-gradient(90deg,var(--accent),transparent);transform:scaleX(0);transform-origin:left;transition:transform 0.3s ease}
 .card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(179,77,106,0.15)}
 .card:hover::before{transform:scaleX(1)}
-.mini-gallery .thumbs{display:flex;gap:.5rem}
+.mini-gallery{text-align:center}
+.mini-gallery .thumbs{display:flex;gap:.5rem;justify-content:center}
 .mini-gallery img{width:100%;max-width:200px;border-radius:8px;transition:transform 0.3s ease,box-shadow 0.3s ease;cursor:pointer}
 .mini-gallery img:hover{transform:scale(1.05);box-shadow:0 4px 16px rgba(0,0,0,0.15)}
 .gallery-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:8px}
