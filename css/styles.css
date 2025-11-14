@@ -101,7 +101,7 @@ main h4{font-family:'Cormorant Garamond',serif;font-weight:700;line-height:1.3;c
 .lightbox img{max-width:90%;max-height:90%;object-fit:contain;border-radius:8px;box-shadow:0 8px 32px rgba(0,0,0,0.5)}
 
 /* Booking Section */
-.booking-section{background:linear-gradient(135deg,rgba(179,77,106,0.08) 0%,rgba(255,248,245,1) 100%);padding:3rem 2rem;border-radius:12px;margin:3rem 0;box-shadow:0 4px 20px rgba(179,77,106,0.12);text-align:center}
+.booking-section{background:linear-gradient(135deg,rgba(179,77,106,0.08) 0%,rgba(255,248,245,1) 100%);padding:3rem 2rem;border-radius:12px;margin:3rem auto;box-shadow:0 4px 20px rgba(179,77,106,0.12);text-align:center}
 .booking-section h3{margin-top:0;color:var(--heading);font-size:clamp(1.8rem,4vw,2.4rem)}
 .booking-section p{max-width:600px;margin:0 auto 2rem;color:var(--muted);font-size:1.1rem}
 .booking-widget{max-width:900px;margin:2rem auto;min-height:700px;border:none;border-radius:8px;overflow:hidden;box-shadow:0 8px 32px rgba(0,0,0,0.1)}
@@ -168,7 +168,7 @@ main h4{font-family:'Cormorant Garamond',serif;font-weight:700;line-height:1.3;c
 .faq-item p{padding:1.5rem;margin:0;color:#555;line-height:1.7;border-top:1px solid rgba(179,77,106,0.08)}
 
 /* Testimonials Section */
-.testimonials-section{margin:4rem 0;padding:3rem 2rem;background:linear-gradient(135deg,rgba(179,77,106,0.08),rgba(255,248,245,1));border-radius:12px;text-align:center}
+.testimonials-section{margin:4rem auto;padding:3rem 2rem;background:linear-gradient(135deg,rgba(179,77,106,0.08),rgba(255,248,245,1));border-radius:12px;text-align:center}
 .testimonials-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:2rem;margin-top:2rem;justify-items:center}
 .testimonial-card{background:#fff;padding:2rem;border-radius:12px;box-shadow:0 4px 16px rgba(0,0,0,0.08);position:relative;text-align:center}
 .testimonial-card::before{content:'"';position:absolute;top:-10px;left:20px;font-size:5rem;color:rgba(255,107,107,0.15);font-family:'Libre Caslon Text',serif;line-height:1}
