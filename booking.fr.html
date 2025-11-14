@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Réservation — RANIA Danse orientale Lucerne</title>
+    <meta name="description" content="Réservez un cours avec RANIA à Lucerne. Calendly pour des cours collectifs, privés ou ateliers. 8+ ans d'expérience." />
+    <link rel="icon" href="./assets/images/favicon.svg" type="image/svg+xml">
+    <link rel="alternate icon" href="./assets/images/logo.png" type="image/png">
+    <link rel="icon" href="./assets/images/favicon-32.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="./assets/images/favicon-96.png" sizes="96x96" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Montserrat:wght@300;400;600&family=Libre+Caslon+Text:ital@1&display=swap" rel="stylesheet">
+    <link href="./css/styles.css" rel="stylesheet">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-row">
+        <h1 class="brand"><a href="index.fr.html">
+            <img src="./assets/images/logo.png" alt="Logo RANIA" class="logo">
+            <span class="brand-text">RANIA</span>
+          </a></h1>
+        <nav>
+          <a href="index.fr.html">Accueil</a>
+          <a href="about.html">À propos</a>
+          <a href="classes.html">Cours</a>
+          <a href="gallery.html">Galerie</a>
+          <a href="contact.html">Contact</a>
+          <a href="booking.fr.html" class="active">Réserver</a>
+        </nav>
+        <div class="lang-switch" aria-label="Changer de langue">
+          <a href="booking.fr.html" hreflang="fr" class="active">FR</a>
+          <a href="booking.en.html" hreflang="en">EN</a>
+          <a href="booking.de.html" hreflang="de">DE</a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="booking-section container">
+        <h3>Réservez votre cours</h3>
+        <p>Choisissez directement un créneau dans mon calendrier Calendly pour un cours collectif, privé ou atelier.</p>
+        <iframe class="booking-widget" src="https://calendly.com/rania_imbach/new-meeting" width="100%" height="700" frameborder="0" title="Calendly réservation"></iframe>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="container">
+        <p>© <span id="year"></span> RANIA — Danse orientale • <a href="contact.html">Contact</a></p>
+      </div>
+    </footer>
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  </body>
+</html>
