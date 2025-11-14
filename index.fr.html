@@ -98,38 +98,8 @@
 
       <section id="booking" class="booking-section container">
         <h3>Réservez votre cours</h3>
-        <p>Remplissez le formulaire et je vous recontacte pour fixer un rendez-vous.</p>
-        <form class="booking-form" action="mailto:rania@example.com" method="post" enctype="text/plain">
-          <div class="form-row">
-            <label>Nom *
-              <input type="text" name="name" required>
-            </label>
-            <label>E-mail *
-              <input type="email" name="email" required>
-            </label>
-          </div>
-          <div class="form-row">
-            <label>Téléphone
-              <input type="tel" name="phone">
-            </label>
-            <label>Type de cours *
-              <select name="course-type" required>
-                <option value="">Choisir...</option>
-                <option value="group">Cours collectif (60 min.)</option>
-                <option value="workshop">Atelier (90-120 min.)</option>
-                <option value="private">Cours privé (sur demande)</option>
-              </select>
-            </label>
-          </div>
-          <label>Créneau souhaité
-            <textarea name="preferred-time" rows="3" placeholder="ex: mercredi soir, week-end, flexible..."></textarea>
-          </label>
-          <label>Informations complémentaires
-            <textarea name="message" rows="4" placeholder="Votre niveau, souhaits particuliers..."></textarea>
-          </label>
-          <p class="muted">Note : Ce formulaire utilise mailto: — pour un vrai formulaire, essayez <a href="https://formspree.io" target="_blank" rel="noopener">Formspree</a> (gratuit).</p>
-          <button class="cta-primary" type="submit">Envoyer la demande</button>
-        </form>
+        <p>Choisissez directement un créneau dans mon calendrier.</p>
+        <iframe class="booking-widget" src="https://calendly.com/rania_imbach/30min" width="100%" height="700" frameborder="0"></iframe>
       </section>
 
       <section class="contact-cta container">
