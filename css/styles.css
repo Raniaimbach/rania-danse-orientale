@@ -128,3 +128,52 @@ main h4{font-family:'Cormorant Garamond',serif;font-weight:700;line-height:1.3;c
   .container{padding:1rem}
   .brand-text{display:none}
 }
+
+/* Pricing Section */
+.pricing-section{margin:3rem 0}
+.pricing-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:2rem;margin:2rem 0}
+.pricing-card{background:#fff;border-radius:12px;padding:2rem;box-shadow:0 4px 20px rgba(0,0,0,0.08);transition:all 0.3s ease;border:2px solid transparent;position:relative}
+.pricing-card:hover{transform:translateY(-8px);box-shadow:0 12px 40px rgba(179,77,106,0.2);border-color:var(--accent)}
+.pricing-card.featured{border-color:var(--accent);background:linear-gradient(135deg,rgba(179,77,106,0.03) 0%,#fff 100%)}
+.pricing-card .badge{position:absolute;top:-12px;right:20px;background:var(--accent);color:#fff;padding:0.4rem 1rem;border-radius:20px;font-size:0.85rem;font-weight:700;text-transform:uppercase;letter-spacing:0.5px}
+.pricing-header{text-align:center;border-bottom:2px solid rgba(179,77,106,0.1);padding-bottom:1.5rem;margin-bottom:1.5rem}
+.pricing-header h3{margin:0 0 1rem;font-size:1.8rem;color:var(--heading)}
+.price{font-size:3rem;font-weight:700;color:var(--accent);margin:0;font-family:'Cormorant Garamond',serif}
+.price span{font-size:1.2rem;color:var(--muted);font-weight:400}
+.pricing-features{list-style:none;padding:0;margin:0 0 1.5rem}
+.pricing-features li{padding:0.6rem 0;color:#333;font-size:1rem;line-height:1.6}
+.pricing-schedule{margin:1.5rem 0;padding:1rem;background:rgba(179,77,106,0.04);border-radius:8px}
+.pricing-schedule h4{margin:0 0 0.8rem;font-size:1.1rem;color:var(--heading)}
+.pricing-schedule ul{margin:0;padding-left:1.2rem}
+.pricing-schedule li{padding:0.3rem 0;font-size:0.95rem}
+.pricing-note{font-size:0.9rem;color:var(--muted);font-style:italic;margin:1rem 0}
+
+/* Info Grid */
+.info-section{margin:4rem 0;padding:3rem 2rem;background:linear-gradient(135deg,rgba(179,77,106,0.05),transparent);border-radius:12px}
+.info-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:2rem;margin-top:2rem}
+.info-item{padding:1.5rem;background:#fff;border-radius:8px;box-shadow:0 2px 12px rgba(0,0,0,0.06)}
+.info-item h4{margin:0 0 0.8rem;font-size:1.3rem;color:var(--heading)}
+.info-item p{margin:0;color:#555;line-height:1.6}
+
+/* FAQ Section */
+.faq-section{margin:4rem 0}
+.faq-item{background:#fff;border:1px solid rgba(179,77,106,0.15);border-radius:8px;margin-bottom:1rem;overflow:hidden;transition:all 0.3s ease}
+.faq-item:hover{box-shadow:0 4px 16px rgba(179,77,106,0.1)}
+.faq-item summary{padding:1.5rem;cursor:pointer;font-weight:600;font-size:1.1rem;color:var(--heading);list-style:none;transition:all 0.2s ease;user-select:none}
+.faq-item summary::-webkit-details-marker{display:none}
+.faq-item summary::after{content:'▼';float:right;transition:transform 0.3s ease;font-size:0.9rem;color:var(--accent)}
+.faq-item[open] summary{background:rgba(179,77,106,0.05);border-bottom:1px solid rgba(179,77,106,0.1)}
+.faq-item[open] summary::after{transform:rotate(180deg)}
+.faq-item p{padding:1.5rem;margin:0;color:#555;line-height:1.7;border-top:1px solid rgba(179,77,106,0.08)}
+
+/* Testimonials Section */
+.testimonials-section{margin:4rem 0;padding:3rem 2rem;background:linear-gradient(135deg,rgba(179,77,106,0.08),rgba(255,248,245,1));border-radius:12px}
+.testimonials-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:2rem;margin-top:2rem}
+.testimonial-card{background:#fff;padding:2rem;border-radius:12px;box-shadow:0 4px 16px rgba(0,0,0,0.08);position:relative}
+.testimonial-card::before{content:'"';position:absolute;top:-10px;left:20px;font-size:5rem;color:rgba(255,107,107,0.15);font-family:'Libre Caslon Text',serif;line-height:1}
+.testimonial-text{font-style:italic;color:#555;line-height:1.7;margin-bottom:1.5rem;position:relative;z-index:1}
+.testimonial-author{display:flex;align-items:center;gap:1rem}
+.testimonial-avatar{width:50px;height:50px;border-radius:50%;background:var(--accent);color:#fff;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:1.2rem}
+.testimonial-info h4{margin:0 0 0.2rem;font-size:1rem;color:var(--heading)}
+.testimonial-info p{margin:0;font-size:0.85rem;color:var(--muted)}
+.stars{color:#ffc107;font-size:1.1rem;margin-bottom:0.5rem}
